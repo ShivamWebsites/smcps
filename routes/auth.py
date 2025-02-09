@@ -137,10 +137,10 @@ def forgot_password():
 
 def send_otp_email(email, otp):
     # SMTP configuration (you may use the same SMTP setup)
-    smtp_server = "smtp.gmail.com"
+    smtp_server = ""
     smtp_port = 587
-    smtp_username = "testampli2023@gmail.com"
-    smtp_password = "cpxvsxtxfeiuahbo"
+    smtp_username = ""
+    smtp_password = ""
     sender_email = smtp_username
 
     # Email content
@@ -167,10 +167,10 @@ def send_otp_email(email, otp):
 
 def send_reset_email(email, token):
     # SMTP configuration from the app configuration
-    smtp_server = "smtp.gmail.com"
+    smtp_server = ""
     smtp_port = 587
-    smtp_username = "testampli2023@gmail.com"
-    smtp_password = "cpxvsxtxfeiuahbo"
+    smtp_username = ""
+    smtp_password = ""
     sender_email = smtp_username
 
     # Email content
